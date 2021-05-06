@@ -1,0 +1,37 @@
+.con{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    direction: rtl;
+    margin-top: 2rem;
+}
+
+.title{
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+
+.select_con{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sel_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.2rem;
+    cursor: pointer;
+    user-select: none;
+    font-size: 0.75rem;
+    height: 2.125rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: #333333;
+    white-space: nowrap;
+    border: solid 1px #707070;
+}
+
+.sel_con_active{
+    background-color: #EFB569;
+}

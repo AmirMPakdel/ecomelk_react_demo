@@ -1,0 +1,26 @@
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1.2rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(25% - 0.3rem);
+    cursor: pointer;
+    user-select: none;
+    font-size: 0.75rem;
+    height: 2.125rem;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+    color: #333333;
+    white-space: nowrap;
+    border: solid 1px #707070;
+}
+
+.fourth_el{
+    margin-left: 0;
+}

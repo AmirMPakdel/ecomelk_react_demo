@@ -1,0 +1,45 @@
+.con{
+    width: 100%;
+    display: flex;
+    direction: rtl;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.odd_order{
+    margin-top: 2.8rem !important;
+    margin-left: 2rem !important;
+}
+
+.even_order{
+    margin-top: 2.8rem !important;
+    margin-left: 0 !important;
+}
+
+.owned_type_con{
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 2rem);
+    direction: rtl;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+}
+
+.owned_type_btn{
+    width: calc(33.3% - 1rem);
+}
+
+@media(max-width:768px){
+    
+    .odd_order,
+    .even_order,
+    .owned_type_con{
+        margin-left: 0 !important;
+        margin-top: 2.5rem !important;
+        width: 100% !important;
+    }
+
+    .owned_type_btn{
+        font-size: 0.65rem;
+    }
+}

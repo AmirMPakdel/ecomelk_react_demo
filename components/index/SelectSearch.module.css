@@ -1,0 +1,11 @@
+.con{
+    width: calc(31%) !important;
+}
+
+.option{
+    direction: rtl;
+}
+
+.dropdown{
+    width: auto !important;
+}

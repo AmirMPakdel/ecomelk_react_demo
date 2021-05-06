@@ -1,0 +1,30 @@
+.con{
+    display: flex;
+    width: 2rem;
+    height: 1rem;
+    min-width: 2rem;
+    min-height: 1rem;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    border: solid 0.1rem #979797;
+}
+
+.shape{
+    background-color: #333333;
+    width: 0.8rem;
+    height: 0.76rem;
+    margin-right: 0.04rem;
+    transition: ease 200ms;
+    transform: translateX(0);
+}
+
+.checked_con{
+    border: unset;
+    background-color: #333333;
+}
+
+.checked_shape{
+    background-color: #EFB569;
+    transform: translateX(-1rem);
+}
